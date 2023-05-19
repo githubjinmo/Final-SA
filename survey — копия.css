@@ -1,0 +1,9 @@
+body{
+	font-family: 'Open Sans', sans-serif;	
+}
+.class_block{
+	display:block;
+}
+.class_none{
+	display:none;
+}

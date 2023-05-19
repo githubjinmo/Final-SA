@@ -1,0 +1,58 @@
+body{
+	margin:0;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#whole_page_boxes{
+	gap:50px;
+}
+.second_whole_box{
+	display:flex;
+	align-items:center;
+	flex-direction:column;
+	width:33%;
+	
+}
+#whole_center_image{
+	width:33%;
+	height:670px;
+}
+#whole_center_image img{
+	width:100%;
+	
+	
+}
+.second_image{
+	
+	width:100%;	
+}
+.second_image img{
+	width:100%;
+	
+}
+.center_image{
+	width:33%;
+	height:369px;
+}
+.second_page_box{
+	
+	width:100%;
+	height:450px;
+	font-size:26px;
+	border-top:1px solid black;
+}
+.second_description{
+	display:flex;
+	width:100%;
+	margin:3px;
+	
+	
+}
+.to_other_page{
+	top:8%;
+	left:-2.2%;
+
+}
+
+
+

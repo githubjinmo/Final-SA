@@ -1,0 +1,30 @@
+@media (min-width: 1440px){
+	body{
+		font-size:22.5px;
+	}
+	
+}
+@media (min-width: 1024px){
+	body{
+		font-size:26.5px;
+	}
+	
+}
+@media (min-width: 768px){
+	body{
+		font-size:30.5px;
+	}
+	
+}
+@media (min-width: 425px){
+	body{
+		font-size:34.5px;
+	}
+	
+}
+@media (min-width: 320px){
+	body{
+		font-size:38.5px;
+	}
+	
+}

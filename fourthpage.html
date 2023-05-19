@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel = "stylesheet" type="text/css" href="SAJinmocss.css">
+	<link rel = "stylesheet" type="text/css" href="secondpage.css">
+	<link rel = "stylesheet" type="text/css" href="menu.css">
+	<link rel = "stylesheet" type="text/css" href="fourthpage.css">
+	<link rel = "stylesheet" type="text/css" href="ADATS2.css">
+	<link rel = "stylesheet" type="text/css" href="rm.css">
+	<title></title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&display=swap" rel="stylesheet">
+</head>
+<body>	
+		
+		<div id="whole_menu">
+		<div id = "item_holder">
+			<div class = "submenu">
+				<a onClick = "menu('s_s_1')">
+					Pages
+				</a>
+				<div id = "s_s_1"class ="second_sub">
+					<div class ="second_sub_child">
+						<a href = "index.html">
+							To main page  
+						</a>
+					</div>
+					<div class ="second_sub_child">
+						<a href = "secondpage.html">
+							Problems 
+						</a>
+					</div>
+					<div class ="second_sub_child">
+						<a href = "thirdpage.html">
+							Reason to save water
+						</a>
+					</div>
+					<div class ="second_sub_child">
+						<a href = "fourthpage.html">
+							Why water should be cheap for everyone
+						</a>
+					</div>
+					<div class ="second_sub_child">
+						<a href = "fifthpage.html">
+							Solutions
+						</a>
+					</div>
+					<div class ="second_sub_child">
+						<a href = "survey4.html">
+							Test
+						</a>
+					</div>
+				</div>
+			</div>
+			
+			<div class = "submenu">
+				<a onClick = "menu('s_s_2')">
+					Donations
+				</a>
+				<div id = "s_s_2" class ="second_sub">
+					<div class ="second_sub_child">
+						<a href = "https://help.unicef.org/give-water">
+							UNICEF Donation
+						</a>
+					</div>
+					<div class ="second_sub_child">
+						<a href = "https://www.charitywater.org/about">
+							CharityWater
+						</a>
+					</div>
+					
+				</div>
+			</div>
+			
+			<div class = "submenu">
+				<a onClick = "menu('s_s_3')">
+					Resources
+				</a>
+				<div id = "s_s_3"class ="second_sub">
+					<div class ="second_sub_child">
+						<a href = "https://water.org/">
+							Water.org
+						</a>
+					</div>
+					<div class ="second_sub_child">
+						<a href = "https://www.onedrop.org/en/">
+							Onedrop.org
+						</a>
+					</div>
+				</div>
+			</div>
+			
+			<div class = "submenu">
+				<a onClick = "menu('s_s_4')">
+					UN SDGs
+				</a>
+				<div id = "s_s_4" class ="second_sub">
+					<div class ="second_sub_child">
+						<a href = "https://sdgs.un.org/goals">
+							UN SDG17
+						</a>
+					</div>
+					<div class ="second_sub_child">
+						<a href = "https://www.sdg6data.org/en">
+							UN SDG6
+						</a>
+					</div>
+				</div>	
+			</div>
+		</div>
+	
+	
+		<div class="title">
+				Why water should be cheap for everyone?
+		</div>
+		
+	</div>
+	<div id="whole_page_boxes">
+		<div class="second_whole_box">
+			
+			<div class= "second_page_box">
+				The reason why the water should be cheap for everyone - is that everyone needs a water in order to live. The water is a primary resource for any live creatures and the price must be lowered.
+			</div>
+			<div class="second_image">
+				<img src = "44179.webp">
+			</div>
+			<div class="second_description">
+				A person who cannot get water due to it's pollution
+			</div>
+		</div>
+		<div id = "whole_center_image">
+			<div id = "first_center_image">
+			<img src ="urgent.jpg">
+				</div>
+			<div id = "second_center_image">
+			<img src ="SDG6.png">
+				</div>
+		</div>
+		
+		<div class="second_whole_box">
+			
+			<div class= "second_page_box">
+				If the water is getting more and more expensive, people won't get enough water supply and it might even lead to massive dehydration of people and might cause death as well. So, why don't we try to support SDG17 and SDG6, which is aimed to be done by 2030?
+			</div>
+			<div class="second_image">
+				<img src = "tabwater.jfif">
+				</img>
+			</div>
+			<div class="second_description">
+				Water tab, that is stopped working
+			</div>
+		</div>
+		</div>
+		
+	
+	<a href="#main" id="to_top">
+		return to top
+	</a>
+	<script>
+	function menu(el_id){ 
+			const Element = document.getElementById(el_id); 
+			
+			if (Element.className == "second_sub") {
+				Element.className += " second_sub_appear"; } 
+			else { 
+				Element.className = "second_sub"; 
+			} 
+			
+		}
+		</script>
+</body> 
+</html>

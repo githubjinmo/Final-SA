@@ -1,0 +1,21 @@
+@media (min-width: 769px){
+	.submenu a:hover{
+		color: #FFFFFF;
+		
+	}
+
+	.submenu:hover .second_sub{
+
+		opacity:1;
+		transform: translate(0,0) scale(1,1);
+	}
+}
+@media (max-width: 768px){
+	
+
+	.second_sub_appear{
+
+		opacity:1;
+		transform: translate(0,0) scale(1,1);
+	}
+}
